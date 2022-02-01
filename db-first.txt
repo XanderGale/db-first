@@ -1,0 +1,14 @@
+vehicles
+
+id - INT - PRIMARY_KEY(NOTNULL, UNIQUE,INDEX) - AUTO_INCREMENT
+isbn - VARCHAR(25) - NOTNULL - UNIQUE - INDEX
+vehicle_name - VARCHAR(50) - NOTNULL
+vehicle_description - TEXT
+vehicle_year - YEAR - NOTNULL
+vehicle_brand - VARCHAR(40)
+vehicle_model - VARCHAR(50)
+vehicle_price - DECIMAL(10, 2) - NOTNULL
+vehicle_rating - FLOAT(2,1)
+vehicle_preview - VARCHAR(100) - DEFAULT(‘/img/src/default.png’)
+bestseller - TINYINT - DEFAULT(0)
+for_novice - TINYINT
